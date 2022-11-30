@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Kementrian Pertanian</title>
+  </head>
+  <body>
+
+    <!--Navbars-->
+    <div>
+        <div class="d-flex justify-content-between" style="margin-left: 10%; margin-right: 10%;">
+            <div class="d-flex flex-row" style="gap: 25px;">
+                <p class="fw-semibold pt-2 px-3"  style="background-color: #FF5555; color: white; height: 45px;">Trending</p>
+                <p class="pt-2 text-secondary fw-semibold">Top 10 Best Movies of 2018 So Far: Great Movies</p>
+            </div>
+            <div class="d-flex flex-row">
+                <div class="d-flex flex-row mt-2 mx-3" >
+                    <i class="fa-solid fa-chevron-left border p-2 mx-2 " style="color: #8080808c; font-size: 10px ; height: 30px;"></i>
+                    <i class="fa-solid fa-chevron-right border p-2" style="color: #8080808c; font-size: 10px; height: 30px;"></i>
+                </div>
+                <div class="d-flex flex-row mt-2" style="gap: 10px">
+                    <p class="text-secondary fw-semibold" >Thursday, March 26, 2020 | </p>
+                    <i class="fa-brands fa-twitter mt-2"></i>
+                    <i class="fa-brands fa-facebook mt-2"></i>
+                    <i class="fa-brands fa-youtube mt-2"></i>
+                    <i class="fa-brands fa-instagram mt-2"></i>
+                </div>
+            </div>
+        </div>
+        <p class="w-100" style="border-top: dashed; color: #80808076; margin-top: -17px"></p>
+        <div class="d-flex justify-content-between" style="margin-left: 10%; margin-right: 10%;">
+            <img src="image/logo.png" width="80px" />
+            <img src="image/icon.png" width="80px" />
+        </div>
+        <div class="d-flex justify-content-between mt-4" style="margin-left: 10%; margin-right: 10%;">
+            <div class="d-flex flex-row fw-semibold mt-2" style="gap: 25px;">
+                <p><i class="fa-solid fa-desktop me-2"></i>Live TV</p>
+                <p>News</p>
+                <p>Entertaiment</p>
+                <p>Produk Pertanian</p>
+                <p>Foto</p>
+                <p>Video</p>
+                <p>Infografis</p>
+            </div>
+            <div class="d-flex flex-row">
+                <i class="fa-solid fa-magnifying-glass m-2" style="color: gray; "></i>
+                <p class="text-secondary"> | English <i class="fa-solid fa-chevron-down" style="font-size: 10px;"></i></p>
+            </div>
+        </div>
+    </div>
+
+    <div style="background-color: #F7F7F7;">
+
+    <!--header-->
+    <div class="container row py-5">
+        <div class="col col-12 col-md-3">
+            <img src="image/banner.png" class="mt-5" />
+        </div>
+        <div class="col col-12 col-md-3" style="width: 75%;">
+            <div class="card d-flex flex-row shadow shadow-lg" style="border:none; margin-left: -140px; ">
+                <i class="fa-solid fa-chevron-left p-2 my-auto" style="color: black; font-size: 15px; margin-left: -5px;"></i>
+                <div style="background-color: #f4eeee;" class="d-flex flex-row pt-2">
+                    <div class="d-flex flex-row mb-2 px-2">
+                        <img src="image/yess.jpg" style="width: 50px; height: 70px;border-radius:5px;"  alt="...">
+                        <div class="ms-2" style="max-width: 70%;">
+                            <p class="fw-bold" style="font-size: 14px;">YESS Program Regenerasi Petani Dan Kewirausahaan</p>
+                            <p class="text-secondary" style="margin-top: -15px; font-size: 13px;">People have been infected</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row mb-2">
+                        <img src="image/YMP.jpeg" style="width: 50px; height: 70px;border-radius:5px;"  alt="...">
+                        <div class="ms-2" style="max-width: 70%;">
+                            <p class="fw-bold" style="font-size: 14px;">YESS Program Regenerasi Petani Dan Kewirausahaan</p>
+                            <p class="text-secondary" style="margin-top: -15px; font-size: 13px;">People have been infected</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row mb-2">
+                        <img src="image/sukabumi.png" style="width: 50px; height: 70px;border-radius:5px;"  alt="...">
+                        <div class="ms-2" style="max-width: 70%;">
+                            <p class="fw-bold" style="font-size: 14px;">YESS Program Regenerasi Petani Dan Kewirausahaan</p>
+                            <p class="text-secondary" style="margin-top: -15px; font-size: 13px;">People have been infected</p>
+                        </div>
+                    </div>
+                </div>
+                <i class="fa-solid fa-chevron-right p-2 my-auto" style="color: black; font-size: 15px; margin-left: -5px;"></i>
+            </div> 
+        </div>
+        <div class="col d-flex flex-row" style="margin-top: -65vh; margin-left: 13%;">
+            <i class="fa-solid fa-chevron-left px-2 text-center" style="position:absolute; font-size: 15px; margin-left: -15px; background-color: #64df3a; color:white; border-start-start-radius: 5px; border-end-start-radius: 5px; height: 80px; padding-top: 30px; padding-top: 30px; margin-top: 190px"></i>
+            <img src="image/header.png " style="width: 590px; height: 420px; "/>
+            <i class="fa-solid fa-chevron-right px-2 text-center my-auto" style="font-size: 15px; margin-left: -5px; background-color: #64df3a; color:white; border-end-end-radius: 5px; border-start-end-radius: 5px; height: 80px; padding-top: 30px;"></i>
+        </div>
+        <div class="col">
+            <div class="card shadow shadow-md" style=" border:none; margin-top: -135%; width: 95%;">
+                <div class="d-flex flex-row">
+                    <div class="d-flex flex-row mt-2">
+                        <p style="background-color: #3fc611; width: 7px; height: 30px;">
+                        <h5 class="fw-bold ms-2">Trending</h5>
+                    </div>
+                </div>
+                <p class="w-100" style="border-top: dashed; color: #808080b0; ">
+                <div class="d-flex flex-row">
+                    <p style="border-radius: 100%; background-color: #80808039; color:#8080808d;height: 60px;" class="py-1 px-4 mx-2 fs-2">1</p>
+                    <div class="ms-1">
+                        <small class="fw-semibold text-secondary"><span style="color: #3fc611;">TECHNOLOGY</span> / March 26, 2020</small>
+                        <p class="card-title fw-bold me-1" style="font-size: 15px;">YESS Program Regenerasi Petani Dan Kewirausahaan</p>
+                        <p class="w-100" style="border-top: dashed; color: #808080b0;">
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <p style="border-radius: 100%; background-color: #80808039; color:#8080808d; height: 60px;" class="py-1 px-4 mx-2 fs-2">2</p>
+                    <div class="ms-1">
+                        <small class="fw-semibold text-secondary"><span style="color: #3fc611;">TECHNOLOGY</span> / March 26, 2020</small>
+                        <p class="card-title fw-bold me-1" style="font-size: 15px;">YESS Program Regenerasi Petani Dan Kewirausahaan</p>
+                        <p class="w-100" style="border-top: dashed; color: #808080b0;">
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <p style="border-radius: 100%; background-color: #80808039; color:#8080808d;height: 60px;" class="py-1 px-4 mx-2 fs-2">3</p>
+                    <div class="ms-1">
+                        <small class="fw-semibold text-secondary"><span style="color: #3fc611;">TECHNOLOGY</span> / March 26, 2020</small>
+                        <p class="card-title fw-bold me-1" style="font-size: 15px;">YESS Program Regenerasi Petani Dan Kewirausahaan</p>
+                        <p class="w-100" style="border-top: dashed; color: #808080b0;">
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <p style="border-radius: 100%; background-color: #80808039; color:#8080808d; height: 60px;" class="py-1 px-4 mx-2 fs-2">4</p>
+                    <div class="ms-1">
+                        <small class="fw-semibold text-secondary"><span style="color: #3fc611;">TECHNOLOGY</span> / March 26, 2020</small>
+                        <p class="card-title fw-bold me-1" style="font-size: 15px;">YESS Program Regenerasi Petani Dan Kewirausahaan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <div class="col col-12 col-md-3">
+        <img src="image/banner.png" style="margin-top: -97vh; margin-left: 173vh;" />
+      </div>
+    </div>
+
+    <!--Infografis-->
+    <div class="container mb-5">
+        <div class="d-flex flex-row mt-2">
+            <p style="background-color: #3fc611; width: 7px; height: 30px;">
+                <h5 class="fw-bold mb-4 ms-2">Infografis</h5>
+                <div class="float-end" style="margin-left: 82%;" >
+                    <i class="fa-solid fa-chevron-left border p-2" style="color: #8080808c; font-size: 10px"></i>
+                    <i class="fa-solid fa-chevron-right border p-2" style="color: #8080808c; font-size: 10px"></i>
+                </div>
+        </div>
+      <div class="row">
+        <div class="col col-12 col-lg-3">
+          <div class="card" style="width: 15rem">
+            <img src="image/jambu.png" class="card-img" alt="..." />
+            <p class="card-infografis fw-bold">NEWS 
+                <span class="fs-6">
+                / 28 September 2021
+            </span>
+            </br>
+                <span class="fs-5">
+                    Profil YESS Program
+                </span>
+            </p>
+          </div>
+        </div>
+        <div class="col col-12 col-lg-3">
+            <div class="card" style="width: 15rem">
+              <img src="image/perawat.jpg_large" class="card-img" alt="..." />
+              <p class="card-infografis2 fw-bold">NEWS 
+                <span >
+                  / 28 September 2021
+                </span>
+              </br>
+                  <span class="text-card">
+                      Sinergi Program YESS Kementrian Dengan Kemenko Perekonomian Di Sukabumi
+                  </span>
+              </p>
+            </div>
+        </div>
+        <div class="col col-12 col-lg-3">
+            <div class="card" style="width: 15rem">
+              <img src="image/jambu.png" class="card-img" alt="..." />
+              <p class="card-infografis2 fw-bold">NEWS 
+                  <span class="fs-6">
+                  / 28 September 2021
+              </span>
+              </br>
+                  <span class="fs-6">
+                      PELATIHAN MANAJEMEN BISNIS BAGI PEMULA - Program YESS Pertanian
+                  </span>
+              </p>
+            </div>
+        </div>
+        <div class="col col-12 col-lg-3">
+            <div class="card" style="width: 15rem">
+              <img src="image/perawat.jpg_large" class="card-img" alt="..." />
+              <p class="card-infografis2 fw-bold">NEWS 
+                <span class="fs-6">
+                  / 28 September 2021
+                </span>
+              </br>
+                  <span class="text-card">
+                    Harapan Duta Petani Milenial di Kalsel Terhadap Program YESS
+                  </span>
+              </p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mb-5">
+        <div class="card" style="width: 100%">
+            <img src="image/banner(1).png" class="card-img-top" alt="..." />
+        </div>
+    </div>
+
+    <!--foto-->
+    <div class="container mb-5">
+        <div class="d-flex flex-row mt-2">
+            <p style="background-color: #3fc611; width: 7px; height: 30px;">
+            <h5 class="fw-bold mb-4 ms-2">Foto</h5>
+        </div>
+        <div class="row">
+            <div class="col col-12 col-lg-3">
+                <div class="card" style="width: 35rem; border: none; ">
+                    <img src="image/yess.jpg" style="height: 25rem; border-radius: 10px;" class="card-img-top" alt="..." />
+                    <h5 class="card-foto fs-3 fw-bold">PELATIHAN MANAJEMEN BISNIS BAGI PEMULA - Program YESS Pertanian</h5>
+                    </br>
+                    <p class="card-foto2">
+                        The property,complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower
+                    </br>
+                    </br>
+                    <small class="fw-semibold fs-6">
+                        TECHNOLOGY / March 26, 2020
+                    </small>
+                </p>
+                </div>
+            </div>
+            <div class="col col-12 col-lg-3 cards">
+                <a href="detail.html">
+                    <div class="card shadow shadow-md" style="width: 16rem; border:none">
+                        <img src="image/YMP.jpeg" style="height: 175px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title fw-bold">Program YESS Dorong Pertanian Bertaraf Internasional</h5>
+                        <p class="card-text">The property, complete with 30-seat screening from room, a 100-seat amphitheater...</p>
+                        <small class="fw-semibold text-secondary"><span style="color: #3fc611;">TECHNOLOGY</span> / March 26, 2020</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col col-12 col-lg-3">
+                <a href="detail.html">
+                    <div class="card shadow shadow-md" style="width: 16rem; border:none">
+                        <img src="image/YMP.jpeg" style="height: 175px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">YESS Program Regenerasi Petani Dan Kewirausahaan</h5>
+                          <p class="card-text">The property, complete with 30-seat screening from room, a 100-seat amphitheater...</p>
+                          <small class="fw-semibold text-secondary"><span style="color: #3fc611;">TECHNOLOGY</span> / March 26, 2020</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <div class="card" style="width: 100%">
+            <img src="image/banner(2).png" class="card-img-top" alt="..." />
+        </div>
+    </div>
+
+    <!--Entertaiment-->
+    <div class="container mb-5">
+        <div class="d-flex flex-row mt-2" style="margin-left: 8px;">
+            <p style="background-color: #3fc611; width: 7px; height: 30px;">
+            <h5 class="fw-bold mb-4 ms-2">Entertaiment</h5>
+            <div class="float-end" style="margin-left: 49%;" >
+                <i class="fa-solid fa-chevron-left border p-2" style="color: #8080808c; font-size: 10px"></i>
+                <i class="fa-solid fa-chevron-right border p-2" style="color: #8080808c; font-size: 10px"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-12 col-lg-6">
+                <div class="card d-flex flex-row p-2 mb-3 shadow shadow-md" style="width: 47rem; border:none">
+                    <a href="detail.html">
+                        <div class="me-3">
+                            <p class="text-light my-4" style="position: absolute; padding: 8px; background-color: #64df3a; border-start-end-radius: 20px;border-end-end-radius: 20px;">April 26, 2020</p>
+                            <img src="image/yess.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="fw-semibold" style="color: #3fc611;"><i class="fa-solid fa-user me-1" style="color: black;" ></i>Adhi Tjatur</p>
+                                <h5 class="card-title fw-bold">PELATIHAN MANAJEMEN BISNIS BAGI PEMULA - Program YESS pertanian</h5>
+                                <p class="card-text">The property, complete with 30-seat screening from, a 100-seat amphitheater and a swimming pond with sandy shower...</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="detail.html">
+                        <div>
+                            <p class="text-light my-4" style="position: absolute; padding: 8px; background-color: #64df3a; border-start-end-radius: 20px;border-end-end-radius: 20px;">April 26, 2020</p>
+                            <img src="image/yess.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="fw-semibold" style="color: #3fc611;"><i class="fa-solid fa-user me-1" style="color: black;" ></i>Adhi Tjatur</p>
+                                <h5 class="card-title fw-bold">YESS Program Regenerasi Petani Dan Kewirausahaan</h5>
+                                <p class="card-text">The property, complete with 30-seat screening from, a 100-seat amphitheater and a swimming pond with sandy shower...</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="mb-3 d-flex flex-row" style="width: 145%;">
+                    <div class="card me-4 p-3 shadow shadow-md" style="width: 23rem; border:none">
+                        <a href="detail.html">
+                            <div>
+                                <p class="text-light my-4" style="position: absolute; padding: 8px; background-color: #64df3a; border-start-end-radius: 20px;border-end-end-radius: 20px;">April 26, 2020</p>
+                                <img src="image/sukabumi.png" style="border-radius: 10px;" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">YESS Program Regenerasi Petani Dan Kewirausahaan</h5>
+                                    <p class="card-text">The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower...</p>
+                                    <div class="d-flex justify-content-between">
+                                        <p class="fw-semibold" style="color: #69C848"><i class="fa-solid fa-user me-1" style="color: black;" ></i>QuomodoSoft</p>
+                                        <small class="fw-semibold">April 26,2020</small>
+                                    </div>
+                                    <p class="w-100" style="border-top: dashed; color: #808080b0;"></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="detail.html">
+                            <div>
+                                <p class="text-light my-4" style="position: absolute; padding: 8px; background-color: #64df3a; border-start-end-radius: 20px;border-end-end-radius: 20px;">April 26, 2020</p>
+                                <img src="image/yess.jpg" style="border-radius: 10px;" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">PELATIHAN MANAJEMEN BISNIS BAGI PEMULA - Program YESS pertanian</h5>
+                                    <p class="card-text">The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower...</p>
+                                    <div class="d-flex justify-content-between">
+                                        <p class="fw-semibold" style="color: #69C848"><i class="fa-solid fa-user me-1" style="color: black;" ></i>QuomodoSoft</p>
+                                        <small class="fw-semibold">April 26,2020</small>
+                                    </div>
+                                    <p class="w-100" style="border-top: dashed; color: #808080b0;"></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="detail.html">
+                            <div>
+                                <p class="text-light my-4" style="position: absolute; padding: 8px; background-color: #64df3a; border-start-end-radius: 20px;border-end-end-radius: 20px;">April 26, 2020</p>
+                                <img src="image/YMP.jpeg" style="border-radius: 10px;" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Program YESS Dorong Pertanian Bertaraf Internasional</h5>
+                                    <p class="card-text">The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower...</p>
+                                    <div class="d-flex justify-content-between">
+                                        <p class="fw-semibold" style="color: #69C848"><i class="fa-solid fa-user me-1" style="color: black;" ></i>QuomodoSoft</p>
+                                        <small class="fw-semibold">April 26,2020</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <button type="button" class="btn btn-outline-primary fw-bold w-100" style="background-color: #56bed82a;">Show more</button>
+                    </div>
+                    <div class="card me-4 p-3 shadow shadow-md" style="width: 23rem; border:none">
+                        <a href="detail.html">
+                            <div>
+                                <p class="text-light my-4" style="position: absolute; padding: 8px; background-color: #64df3a; border-start-end-radius: 20px;border-end-end-radius: 20px;">April 26, 2020</p>
+                                <img src="image/sukabumi.png" style="border-radius: 10px;" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Program YESS Dorong Pertanian Bertaraf Internasional</h5>
+                                    <p class="card-text">The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower...</p>
+                                    <div class="d-flex justify-content-between">
+                                        <p class="fw-semibold" style="color: #69C848"><i class="fa-solid fa-user me-1" style="color: black;" ></i>QuomodoSoft</p>
+                                        <small class="fw-semibold">April 26,2020</small>
+                                    </div>
+                                    <p class="w-100" style="border-top: dashed; color: #808080b0;"></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="detail.html">
+                            <div>
+                                <p class="text-light my-4" style="position: absolute; padding: 8px; background-color: #64df3a; border-start-end-radius: 20px;border-end-end-radius: 20px;">April 26, 2020</p>
+                                <img src="image/sukabumi.png" style="border-radius: 10px;" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">National Multistakerholder Forum YESS Program 2021</h5>
+                                    <p class="card-text">The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower...</p>
+                                    <div class="d-flex justify-content-between">
+                                        <p class="fw-semibold" style="color: #69C848"><i class="fa-solid fa-user me-1" style="color: black;" ></i>QuomodoSoft</p>
+                                        <small class="fw-semibold">April 26,2020</small>
+                                    </div>
+                                    <p class="w-100" style="border-top: dashed; color: #808080b0;"></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="detail.html">
+                            <div>
+                                <p class="text-light my-4" style="position: absolute; padding: 8px; background-color: #64df3a; border-start-end-radius: 20px;border-end-end-radius: 20px;">April 26, 2020</p>
+                                <img src="image/yess.jpg" style="border-radius: 10px;" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Program YESS Tepat untuk Tanah Laut</h5>
+                                    <p class="card-text">The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower...</p>
+                                    <div class="d-flex justify-content-between">
+                                        <p class="fw-semibold" style="color: #69C848"><i class="fa-solid fa-user me-1" style="color: black;" ></i>QuomodoSoft</p>
+                                        <small class="fw-semibold">April 26,2020</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <button type="button" class="btn btn-outline-primary fw-bold w-100" style="background-color: #56bed82a;">Show more</button>
+                    </div>
+                </div>
+                
+                <div class="col col-12 col-lg-6">
+                    <div class="card p-3 shadow shadow-md" style="width: 21rem; margin-left: 62%; position: absolute; margin-top: -149%; border:none">
+                        <div class="d-flex flex-row mb-2">
+                            <img src="image/sukabumi.png" style="width: 90px; height: 80px; margin-top: 10px;border-radius:5px;"  alt="...">
+                            <div class="ms-1">
+                                <small class="fw-semibold text-secondary"><span style="color: #3fc611;">TECHNOLOGY</span> / March 26, 2020</small>
+                                <p class="card-title fw-bold">YESS Program Regenerasi Petani Dan Kewirausahaan</p>
+                            </div>
+                        </div>
+                        <p class="w-100" style="border-top: dashed; color: #808080b0;">
+                        <div class="d-flex flex-row mb-2">
+                            <img src="image/yess.jpg" style="width: 90px; height: 80px; margin-top: 10px;border-radius:5px;"  alt="...">
+                            <div class="ms-1">
+                                <small class="fw-semibold text-secondary"><span style="color: #3fc611;">TECHNOLOGY</span> / March 26, 2020</small>
+                                <p class="card-title fw-bold">YESS Program Regenerasi Petani Dan Kewirausahaan</p>
+                            </div>
+                        </div>
+                        <p class="w-100" style="border-top: dashed; color: #808080b0;">
+                        <div class="d-flex flex-row mb-2">
+                            <img src="image/YMP.jpeg" style="width: 90px; height: 80px; margin-top: 10px;border-radius:5px;"  alt="...">
+                            <div class="ms-1">
+                                <small class="fw-semibold text-secondary"><span style="color: #3fc611;">TECHNOLOGY</span> / March 26, 2020</small>
+                                <p class="card-title fw-bold">YESS Program Regenerasi Petani Dan Kewirausahaan</p>
+                            </div>
+                        </div>
+                        <p class="w-100" style="border-top: dashed; color: #808080b0;">
+                        <div class="d-flex flex-row mb-2">
+                            <img src="image/sukabumi.png" style="width: 90px; height: 80px; margin-top: 10px;border-radius:5px;"  alt="...">
+                            <div class="ms-1">
+                                <small class="fw-semibold text-secondary"><span style="color: #3fc611;">TECHNOLOGY</span> / March 26, 2020</small>
+                                <p class="card-title fw-bold">YESS Program Regenerasi Petani Dan Kewirausahaan</p>
+                            </div>
+                        </div>
+                        <p class="w-100" style="border-top: dashed; color: #808080b0;">
+                        <div class="d-flex flex-row mb-2">
+                            <img src="image/YMP.jpeg" style="width: 90px; height: 80px; margin-top: 10px;border-radius:5px;"  alt="...">
+                            <div class="ms-1">
+                                <small class="fw-semibold text-secondary"><span style="color: #3fc611;">TECHNOLOGY</span> / March 26, 2020</small>
+                                <p class="card-title fw-bold">YESS Program Regenerasi Petani Dan Kewirausahaan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Video News-->
+    <div class="container mb-3">
+        <div class="row">
+            <div class="col">
+                <div class="card p-2 mb-3 shadow shadow-md" style="border: none;">
+                    <div class="d-flex flex-row mt-2" style="margin-left: 8px;">
+                        <p style="background-color: #3fc611; width: 7px; height: 30px;">
+                            <h5 class="fw-bold mb-4 ms-2">Video News</h5>
+                            <div class="float-end" style="margin-left: 80%;" >
+                                <i class="fa-solid fa-chevron-left border p-2" style="color: #8080808c; font-size: 10px"></i>
+                                <i class="fa-solid fa-chevron-right border p-2" style="color: #8080808c; font-size: 10px"></i>
+                            </div>
+                    </div>
+                    <div class="card d-flex flex-row p-2 mb-3" style="border: none;">
+                        <div class="me-3">
+                            <img src="image/ymp-vid.png" style="width: 110vh; border-radius: 5px;" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="fw-semibold" style="color: #3fc611;"><i class="fa-solid fa-user me-1" style="color: black;" ></i>Adhi Tjatur</p>
+                                <h5 class="card-title fw-semibold">YESS Program Regenerasi Petani Dan Kewirausahaan</h5>
+                            </div>
+                        </div>
+                        <div class="card p-2" style="border: none;">
+                            <div class="d-flex flex-row">
+                                <img src="image/YMP.jpeg" style="width: 70px; height: 70px; margin-top: -10px; border-radius: 5px; " class="card-img-top" alt="...">
+                                <div class="card-body" style="margin-top: -30px;">
+                                    <small class="fw-semibold text-secondary"><span style="color: #3fc611;">TECHNOLOGY</span> / March 26, 2020</small>
+                                    <p class="card-title fw-semibold">Program YESS Tepat untuk Tanah Laut</p>
+                                </div>
+                            </div>
+                            <p class="w-100" style="border-top: dashed; color: #808080b0; margin-top: -10px;"></p>
+                            <div class="d-flex flex-row">
+                                <img src="image/sukabumi.png" style="width: 70px; height: 70px; margin-top: -10px; border-radius: 5px;" class="card-img-top" alt="...">
+                                <div class="card-body" style="margin-top: -30px;">
+                                    <small class="fw-semibold text-secondary"><span style="color: #3fc611;">TECHNOLOGY</span> / March 26, 2020</small>
+                                    <p class="card-title fw-semibold">National Multistakerholder Forum YESS Program 2021</p>
+                                </div>
+                            </div>
+                            <p class="w-100" style="border-top: dashed; color: #808080b0; margin-top: -10px; "></p>
+                            <div class="d-flex flex-row">
+                                <img src="image/yess.jpg" style="width: 70px; height: 70px; margin-top: -10px; border-radius: 5px;" class="card-img-top" alt="...">
+                                <div class="card-body" style="margin-top: -30px;">
+                                    <small class="fw-semibold text-secondary"><span style="color: #3fc611;">TECHNOLOGY</span> / March 26, 2020</small>
+                                    <p class="card-title fw-semibold">YESS Program Regenerasi Petani Dan Kewirausahaan</p>
+                                </div>
+                            </div>
+                            <p class="w-100" style="border-top: dashed; color: #808080b0; margin-top: -10px;"></p>
+                            <div class="d-flex flex-row">
+                                <img src="image/YMP.jpeg" style="width: 70px; height: 70px; margin-top: -10px; border-radius: 5px;" class="card-img-top" alt="...">
+                                <div class="card-body" style="margin-top: -30px;">
+                                    <small class="fw-semibold text-secondary"><span style="color: #3fc611;">TECHNOLOGY</span> / March 26, 2020</small>
+                                    <p class="card-title fw-semibold">National Multistakerholder Forum YESS Program 2021</p>
+                                </div>
+                            </div>
+                            <p class="w-100" style="border-top: dashed; color: #808080b0; margin-top: -10px;"></p>
+                            <div class="d-flex flex-row">
+                                <img src="image/sukabumi.png" style="width: 70px; height: 70px; margin-top: -10px; border-radius: 5px;" class="card-img-top" alt="...">
+                                <div class="card-body" style="margin-top: -30px;">
+                                    <small class="fw-semibold text-secondary"><span style="color: #3fc611;">TECHNOLOGY</span> / March 26, 2020</small>
+                                    <p class="card-title fw-semibold">Program YESS Tepat untuk Tanah Laut</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--index-->
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col">
+                <div class="container mb-5">
+                    <div class="card" style="width: 100%">
+                        <img src="image/banner(1).png" class="card-img-top" alt="..." />
+                    </div>
+                </div>
+                <div class="mb-3 d-flex flex-row">
+                    <div class="card me-4 p-2 shadow shadow-md" style="width: 22rem; height: 165vh; border:none">
+                        <div class="d-flex flex-row mt-2" style="margin-left: -8px;">
+                            <p style="background-color: #3fc611; width: 7px; height: 30px;">
+                            <h5 class="fw-bold mb-4">Produk Pertanian</h5>
+                        </div>
+                        <div>
+                            <a href="detail.html">
+                                <p class="text-light my-4" style="position: absolute; padding: 8px; background-color: #64df3a; border-start-end-radius: 20px;border-end-end-radius: 20px;">April 26, 2020</p>
+                                <img src="image/YMP.jpeg" style="border-radius: 10px;" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">YESS Program Regenerasi Petani Dan Kewirausahaan</h5>
+                                    <p class="card-text" style="font-size: 15px;">The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower...</p>
+                                    <div class="d-flex justify-content-between" style="margin-top: -15px;">
+                                        <p class="fw-semibold" style="color: #69C848"><i class="fa-solid fa-user me-1" style="color: black;" ></i>QuomodoSoft</p>
+                                        <small class="fw-bold">April 26,2020</small>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="card p-2" style="border: none;">
+                                <div class="d-flex flex-row">
+                                    <img src="image/yess.jpg" style="width: 90px; height: 70px; margin-top: -10px; border-radius: 10px;" class="card-img-top" alt="...">
+                                    <div class="card-body" style="margin-top: -30px;">
+                                        <p class="card-title fw-bold">Program YESS Tepat untuk Tanah Laut</p>
+                                        <p class="fw-semibold " style="font-size: 13px; margin-top: -8px; color: #808080bc" >TECHNOLOGY</p>
+                                        <p class="w-100" style="border-top: dashed; color: #808080b0; margin-top: -10px;">
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row">
+                                    <img src="image/yess.jpg" style="width: 90px; height: 70px; margin-top: -10px; border-radius: 10px; " class="card-img-top" alt="...">
+                                    <div class="card-body" style="margin-top: -30px;">
+                                        <p class="card-title fw-bold">National Multistakerholder Forum YESS Program 2021</p>
+                                        <p class="fw-semibold " style="font-size: 13px; margin-top: -8px; color: #808080bc">TECHNOLOGY</p>
+                                        <p class="w-100" style="border-top: dashed; color: #808080b0; margin-top: -10px;">
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row">
+                                    <img src="image/yess.jpg" style="width: 90px; height: 70px; margin-top: -10px; border-radius: 10px;" class="card-img-top" alt="...">
+                                    <div class="card-body" style="margin-top: -30px;">
+                                        <p class="card-title fw-bold">Program YESS Tepat untuk Tanah Laut</p>
+                                        <p class="fw-semibold " style="font-size: 13px; margin-top: -8px; color: #808080bc" >TECHNOLOGY</p>
+                                        <p class="w-100" style="border-top: dashed; color: #808080b0; margin-top: -10px;">
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row">
+                                    <img src="image/yess.jpg" style="width: 90px; height: 70px; margin-top: -10px; border-radius: 10px; " class="card-img-top" alt="...">
+                                    <div class="card-body" style="margin-top: -30px;">
+                                        <p class="card-title fw-bold">National Multistakerholder Forum YESS Program 2021</p>
+                                        <p class="fw-semibold " style="font-size: 13px; margin-top: -8px; color: #808080bc">TECHNOLOGY</p>
+                                        <p class="w-100" style="border-top: dashed; color: #808080b0; margin-top: -10px;">
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row">
+                                    <img src="image/yess.jpg" style="width: 90px; height: 70px; margin-top: -10px; border-radius: 10px;" class="card-img-top" alt="...">
+                                    <div class="card-body" style="margin-top: -30px;">
+                                        <p class="card-title fw-bold">Program YESS Tepat untuk Tanah Laut</p>
+                                        <p class="fw-semibold " style="font-size: 13px; margin-top: -8px; color: #808080bc" >TECHNOLOGY</p>
+                                        <p class="w-100" style="border-top: dashed; color: #808080b0; margin-top: -10px;">
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-outline-primary fw-bold w-100" style="background-color: #56bed82a;">Show more</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-2 p-2 shadow shadow-md" style="width: 22rem; border:none">
+                        <div class="d-flex flex-row mt-2" style="margin-left: -8px;">
+                            <p style="background-color: #3fc611; width: 7px; height: 30px;">
+                            <h5 class="fw-bold mb-4">News</h5>
+                        </div>
+                        <a href="detail.html">
+                            <div>
+                                <p class="text-light my-4" style="position: absolute; padding: 8px; background-color: #64df3a; border-start-end-radius: 20px;border-end-end-radius: 20px;">April 26, 2020</p>
+                                <img src="image/sukabumi.png"  style="border-radius: 10px;" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold fs-5">PELATIHAN MANAJEMEN BISNIS BAGI PEMULA - Program YESS Pertanian</h5>
+                                    <p class="card-text" style="font-size: 15px;">The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower...</p>
+                                    <div class="d-flex justify-content-between">
+                                        <p style="margin-top: -13px;" class="text-secondary fw-semibold"><i class="fa-solid fa-user me-1" style="color: blue;" ></i>QuomodoSoft</p>
+                                        <small class="fw-semibold text-secondary" style="margin-top: -10px;">April 26,2020</small>
+                                    </div>
+                                    <p class="w-100" style="border-top: dashed; color: #808080b0;">
+                                </div>
+                            </div>
+                        </a>
+                        <a href="detail.html">
+                            <div>
+                                <p class="text-light my-4" style="position: absolute; padding: 8px; background-color: #64df3a; border-start-end-radius: 20px;border-end-end-radius: 20px;">April 26, 2020</p>
+                                <img src="image/yess.jpg" style="border-radius: 10px;" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">YESS Program Regenerasi Petani Dan Kewirausahaan</h5>
+                                    <p class="card-text" style="font-size: 15px;">The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower...</p>
+                                    <div class="d-flex justify-content-between">
+                                        <p style="margin-top: -13px;" class="text-secondary fw-semibold"><i class="fa-solid fa-user me-1" style="color: blue;" ></i>QuomodoSoft</p>
+                                        <small class="fw-semibold text-secondary" style="margin-top: -10px;">April 26,2020</small>
+                                    </div>
+                                    <p class="w-100" style="border-top: dashed; color: #808080b0;">
+                                </div>
+                            </div>
+                        </a>
+                        <a href="detail.html">
+                            <div>
+                                <p class="text-light my-4" style="position: absolute; padding: 8px; background-color: #64df3a; border-start-end-radius: 20px;border-end-end-radius: 20px;">April 26, 2020</p>
+                                <img src="image/sukabumi.png" style="border-radius: 10px;" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">YESS Program Regenerasi Petani Dan Kewirausahaan</h5>
+                                    <p class="card-text" style="font-size: 15px;">The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower...</p>
+                                    <div class="d-flex justify-content-between">
+                                        <p style="margin-top: -13px;" class="text-secondary fw-semibold"><i class="fa-solid fa-user me-1" style="color: blue;" ></i>QuomodoSoft</p>
+                                        <small class="fw-semibold text-secondary" style="margin-top: -10px;">April 26,2020</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <button type="button" class="btn btn-outline-primary fw-bold w-100" style="background-color: #56bed82a;">Show more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="col col-12 col-lg-6">
+                    <div class="card p-3 shadow shadow-md" style="width: 23em; position: absolute; border:none">
+                        <div class="d-flex flex-row" style="margin-left: -17px;">
+                            <p style="background-color: #3fc611; width: 7px; height: 30px;">
+                            <h5 class="fw-bold mb-4 ms-1">Index</h5>
+                        </div>
+                        <div class="d-flex flex-row" style="margin-left: -17px;">
+                            <p style="background-color: #3fc611; width: 3px; height: 26px;">
+                            <h6 class="fw-semibold ms-3" style="color: #69C848;">TECHNOLOGY</h6>
+                        </div>
+                        <div>
+                            <h5 class="card-title fw-semibold fs-5" style="margin-top: -15px;">PELATIHAN MANAJEMEN BISNIS BAGI PEMULA - Program YESS Pertanian...</h5>
+                            <p class="text-secondary" ><i class="fa-solid fa-user me-1" style="color: black;" ></i>QuomodoSoft</p>
+                            <div class="d-flex flex-row">
+                                <small class="fw-semibold text-secondary">The property,complete with screening from room, a 100-seat amphitheater and a swimming pond with sandy</small>
+                                <img src="image/YMP.jpeg" style="width: 120px;border-radius: 20px;" class="ms-2 p-3" alt="...">
+                            </div>
+                            <p class="fw-semibold" style="font-size: 15px;"><i class="fa-regular fa-eye me-2" style="color: #3fc611;"></i>6745</p>
+                        </div>
+                        <p class="w-100" style="border-top: dashed; color: #808080b0;"></p>
+                        <div class="d-flex flex-row" style="margin-left: -17px;">
+                            <p style="background-color: #3fc611; width: 3px; height: 26px;">
+                            <h6 class="fw-semibold ms-3" style="color: #69C848;">TECHNOLOGY</h6>
+                        </div>
+                        <div>
+                            <h5 class="card-title fw-semibold fs-5" style="margin-top: -15px;">Sinergi Program YESS Kementan Dengan Kemenko Perekonomian Di Sukabumi</h5>
+                            <p class="text-secondary" ><i class="fa-solid fa-user me-1" style="color: black;" ></i>QuomodoSoft</p>
+                            <div class="d-flex flex-row">
+                                <small class="fw-semibold text-secondary">The property,complete with screening from room, a 100-seat amphitheater and a swimming pond with sandy</small>
+                                <img src="image/sukabumi.png" style="width: 120px;border-radius: 20px;" class="ms-2 p-3" alt="...">
+                            </div>
+                            <p class="fw-semibold" style="font-size: 15px;"><i class="fa-regular fa-eye me-2" style="color: #3fc611;"></i>6745</p>
+                        </div>
+                        <p class="w-100" style="border-top: dashed; color: #808080b0;"></p>
+                        <div class="d-flex flex-row" style="margin-left: -17px;">
+                            <p style="background-color: #3fc611; width: 3px; height: 26px;">
+                            <h6 class="fw-semibold ms-3" style="color: #69C848;">TECHNOLOGY</h6>
+                        </div>
+                        <div>
+                            <h5 class="card-title fw-semibold fs-5" style="margin-top: -15px;">PELATIHAN MANAJEMEN BISNIS BAGI PEMULA - Program YESS Pertanian...</h5>
+                            <p class="text-secondary" ><i class="fa-solid fa-user me-1" style="color: black;" ></i>QuomodoSoft</p>
+                            <div class="d-flex flex-row">
+                                <small class="fw-semibold text-secondary">The property,complete with screening from room, a 100-seat amphitheater and a swimming pond with sandy</small>
+                                <img src="image/yess.jpg" style="width: 120px;border-radius: 20px;" class="ms-2 p-3" alt="...">
+                            </div>
+                            <p class="fw-semibold" style="font-size: 15px;"><i class="fa-regular fa-eye me-2" style="color: #3fc611;"></i>6745</p>
+                        </div>
+                        <p class="w-100" style="border-top: dashed; color: #808080b0;"></p>
+                        <div class="d-flex flex-row" style="margin-left: -17px;">
+                            <p style="background-color: #3fc611; width: 3px; height: 26px;">
+                            <h6 class="fw-semibold ms-3" style="color: #69C848;">TECHNOLOGY</h6>
+                        </div>
+                        <div>
+                            <h5 class="card-title fw-semibold fs-5" style="margin-top: -15px;">Sinergi Program YESS Kementan Dengan Kemenko Perekonomian Di Sukabumi</h5>
+                            <p class="text-secondary" ><i class="fa-solid fa-user me-1" style="color: black;" ></i>QuomodoSoft</p>
+                            <div class="d-flex flex-row">
+                                <small class="fw-semibold text-secondary">The property,complete with screening from room, a 100-seat amphitheater and a swimming pond with sandy</small>
+                                <img src="image/YMP.jpeg" style="width: 120px;border-radius: 20px;" class="ms-2 p-3" alt="...">
+                            </div>
+                            <p class="fw-semibold" style="font-size: 15px;"><i class="fa-regular fa-eye me-2" style="color: #3fc611;"></i>6745</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <div style="background-color: #18222B;">
+        <div style="padding: 75px 110px 30px 150px;">
+            <div>
+                <img src="image/logo.png" width="100px" />
+                <img src="image/icon.png" width="20px" style="margin-left: 50px;" />
+            </div>
+            <div class="d-flex flex-row">
+                <div class="footer-icon">
+                    <i class="fa-brands fa-instagram icon"></i>
+                </div>
+                <div class="footer-icon">
+                    <i class="fa-brands fa-facebook icon"></i>
+                </div>
+                <div class="footer-icon">
+                    <i class="fa-brands fa-youtube icon"></i>
+                </div>
+                <div class="footer-icon">
+                    <i class="fa-brands fa-instagram icon"></i>
+                </div>
+            </div>
+            <p class="w-100" style="border-top: dashed; color: #808080b0;">
+            <div class="row mt-4">
+                <div class="col">
+                    <h5 class="text-light"> News categories</h5>
+                    <p style="color: #ffffffb6; margin-top: 30px;">News</p>
+                    <p style="color: #ffffffb6; margin-top: -13px;">Entertaiment</p>
+                    <p style="color: #ffffffb6; margin-top: -13px;">Produk Pertanian</p>
+                    <p style="color: #ffffffb6; margin-top: -13px;">Foto</p>
+                    <p style="color: #ffffffb6; margin-top: -13px;">Video</p>
+                    <p style="color: #ffffffb6; margin-top: -13px;">Infografis</p>
+                </div>
+                <p style="width: 1px; border-left: dashed; color: #808080b0;">
+                <div class="col">
+                    <h5 class="text-light">Jaringan Kementan</h4>
+                    <p style="color: #ffffffb6; margin-top: 30px;">Reformasi Birokrasi</p>
+                    <p style="color: #ffffffb6; margin-top: -13px;">Regulasi</p>
+                    <p style="color: #ffffffb6; margin-top: -13px;">Layanan Publik</p>
+                    <p style="color: #ffffffb6; margin-top: -13px;">Indoagropedia</p>
+                    <p style="color: #ffffffb6; margin-top: -13px;">Perpustakaan</p>
+                    <p style="color: #ffffffb6; margin-top: -13px;">Kontak Pengaduan</p>
+                </div>
+                <p style="width: 1px; border-left: dashed; color: #808080b0;">
+                <div class="col">
+                    <h5 class="text-light">Yess contact service</h4>
+                    <div class="d-flex flex-row" style="margin-top: 30px;">
+                        <i class="fa-solid fa-mobile-screen me-2" style="color: white; font-size: 20px;"></i>
+                        <p class="text-light">On your mobile</p>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <i class="fa-solid fa-microphone me-2" style="color: white; font-size: 20px;"></i>
+                        <p class="text-light">On smart speakers</p>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <i class="fa-regular fa-envelope me-2" style="color: white; font-size: 20px;"></i>
+                        <p class="text-light">Contact Newspark news</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: #232D36;">
+            <div style="padding: 10px 90px 1px 150px;" class="d-flex justify-content-between" >
+                <p style=" color: #757A80"> &#169 Copyright 2020, Alll Rights Reserved</p>
+                <div class="d-flex flex-row " style="gap: 20px;">
+                    <p  style=" color: #757A80">About</p>
+                    <p  style=" color: #757A80">Advertise</p>
+                    <p  style=" color: #757A80">Privacy & Policy</p>
+                    <p  style=" color: #757A80">Contact Us</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

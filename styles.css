@@ -1,0 +1,67 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: black;
+}
+
+.btn:hover{
+    color: blue;
+}
+
+.card-img{
+    filter: brightness(60%);
+}
+
+.card-infografis{
+    position: absolute;
+    margin-top: 100%;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-infografis2{
+    position: absolute;
+    margin-top: 80%;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text-card{
+    font-size: 15px;
+}
+
+.card-foto{
+    position: absolute;
+    margin-top: 35%;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-foto2{
+    position: absolute;
+    margin-top: 48%;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.cards{
+    margin-left: 25%;
+}
+
+.footer-icon{
+    background-color: #8080803c;
+    padding: 10px 15px 10px 15px;
+    margin: 50px 0px 25px 5px;
+}
+
+.icon{
+    color: #ffffff7f;
+    font-size: 20px;    
+}
